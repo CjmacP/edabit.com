@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/QFXMcwaQZ8FTAuEtg
+# Difficulty: Very Easy
+
+def counterpartCharCode(char):
+    return ord(char.swapcase())
+  
