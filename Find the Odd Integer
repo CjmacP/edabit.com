@@ -1,0 +1,7 @@
+# https://edabit.com/challenge/9TcXrWEGH3DaCgPBs
+# Difficulty: Easy
+
+def find_odd(lst):
+	return int(*set([i for i in lst if lst.count(i)%2 != 0]))
+  
+  
