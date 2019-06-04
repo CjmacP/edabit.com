@@ -1,0 +1,10 @@
+# https://edabit.com/challenge/SKorutJdWGBzXJDRt
+# Difficulty: Easy
+
+def greet_people(names):
+
+	return ' '. join(['Hello {},'.format(i)
+                      if j != len(names)-1
+                      else 'Hello {}'.format(i)
+                      for j,i in enumerate(names)])
+
