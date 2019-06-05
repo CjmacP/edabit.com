@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/p88k8yHRPTMPt4bBo
+# Difficulty: Very Easy
+
+def count_vowels(txt):
+	return len([i for i in txt if i.lower() in 'aeiou'])
+
