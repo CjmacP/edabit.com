@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/MpHke3QqR4uC75rYS
+# Difficulty: Very Easy
+
+def get_extension(lst):
+	return [i.split('.')[1] for i in lst]
+
