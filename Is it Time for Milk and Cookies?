@@ -1,0 +1,9 @@
+# https://edabit.com/challenge/6nSckbgCx9hjTwmcw
+# Difficulty: Easy
+
+def time_for_milk_and_cookies(date):
+
+	date_lst = str(date).split('-')
+	
+    return date_lst[-1] == '24' and date_lst[-2] == '12'
+
