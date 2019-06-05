@@ -1,0 +1,7 @@
+# https://edabit.com/challenge/EZMCpHaNFg2Yfsnxx
+# Difficulty: Very Easy
+
+def unique_sort(lst):
+	return sorted(list(set(lst)))
+    
+    
