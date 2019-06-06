@@ -1,0 +1,8 @@
+# https://edabit.com/challenge/q3JMk2yqXfNyHWE9c
+# Difficulty: Easy
+
+def double_letters(word):
+
+	return any([i for i,j in enumerate(range(1,len(word))) 
+				if word[i] == word[j]])
+
