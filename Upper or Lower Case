@@ -1,0 +1,9 @@
+# https://edabit.com/challenge/a55ygB8Bwj9tx6Hym
+# Difficulty: Easy
+
+def steps_to_convert(txt):
+    a = len([i for i in txt if i.lower() == i])
+    b = len([i for i in txt if i.lower() != i])
+ 
+    return min(a, b)
+
