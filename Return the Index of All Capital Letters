@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/rQkriLJBc9CbfRbJb
+# Difficulty: Very Easy
+
+def indexOfCaps(word):
+	return [i for i,j in enumerate(word) if j.isupper()]
+
