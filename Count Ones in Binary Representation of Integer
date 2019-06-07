@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/GbyPdqNnp75Wci7Cn
+# Difficulty: Very Easy
+
+def count_ones(num):
+	return len([i for i in bin(num) if i == '1'])
+
