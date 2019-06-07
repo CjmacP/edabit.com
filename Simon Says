@@ -1,0 +1,7 @@
+# https://edabit.com/challenge/YzcnFjMEKQfyHAg6B
+# Difficulty: Easy
+
+def simon_says(lst1, lst2):
+	return any([j for i, j in enumerate(range(1,len(lst1)))
+				if lst1[i] == lst2[j]])
+
