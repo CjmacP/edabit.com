@@ -1,0 +1,9 @@
+# https://edabit.com/challenge/E4Te8KMYPy68u8YLC
+# Difficulty: Easy
+
+def volume_of_box(sizes):
+    vol = 1
+    for i in list(sizes.values()):
+        vol *= i 
+    return vol
+
