@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/fDfh3WJPPiiJwgTrW
+# Difficulty: Easy
+
+def num_of_sublists(lst):
+	return len([i for i in lst if type(i) == list])
+
