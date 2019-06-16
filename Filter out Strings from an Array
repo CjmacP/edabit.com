@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/nunJurLEibCyn8fzn
+# Difficulty: Easy
+
+def filter_list(lst):
+	return [i for i in lst if i != str(i)]
+
