@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/z5zpTucxpMLL72FCx
+# Difficulty: Easy
+
+def grab_city(txt):
+	return txt.split('[')[-1].rstrip(']')
+
