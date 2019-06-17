@@ -1,0 +1,12 @@
+# https://edabit.com/challenge/bd2fLqAxHfGTx86Qx
+# Difficulty: Hard
+
+def can_complete(initial, word):
+
+	srt_word = [word.index(i) for i in initial if i in word]
+	srt_word_chck = srt_word == sorted(srt_word)
+	all_in = not any([i for i in initial if i not in word])
+	count_diff = len([i for i in initial if word.count(i) >= initial.count(i)]) == len(initial)
+	
+    return all_in and srt_word_chck and count_diff
+
