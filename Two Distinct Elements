@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/yL5WmWTCNwwb4GnR7
+# Difficulty: Easy
+
+def return_unique(lst):
+	return [i for i in lst if tuple(lst).count(i) == 1]
+
