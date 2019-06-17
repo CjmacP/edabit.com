@@ -1,0 +1,6 @@
+# https://edabit.com/challenge/jwzgYjymYK7Gmro93
+# Difficulty: Easy
+
+def get_indices(lst, el):
+	return [i for i,j in enumerate(lst) if j == el]
+    
