@@ -1,0 +1,10 @@
+# https://edabit.com/challenge/pQavNkBbdmvSMmx5x
+# Difficulty: Medium
+
+def majority_vote(lst):
+	maj = [i for i in lst if lst.count(i) > len(lst)/2]
+	if len(maj) > 0:
+		return maj[0]
+	else:
+		return None
+
