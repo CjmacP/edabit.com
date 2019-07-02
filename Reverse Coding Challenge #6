@@ -1,0 +1,15 @@
+# https://edabit.com/challenge/QCXxnDHsfF7gtkxze
+# Difficulty: Easy
+
+def mystery_func(num):
+    return eval(str([int(i) for i in str(num)]).strip('[]').replace(',', '*'))
+    
+'''
+mystery_func(152) ➞ 10
+
+mystery_func(832) ➞ 48
+
+mystery_func(19) ➞ 9
+
+mystery_func(133) ➞ 9
+'''
