@@ -1,0 +1,11 @@
+# https://edabit.com/challenge/D6Qbh5doP6RvopoF3
+# Difficulty: Easy
+
+def flip(y):
+    return int(not y)
+    
+'''
+flip(1) ➞ 0
+
+flip(0) ➞ 1
+'''
