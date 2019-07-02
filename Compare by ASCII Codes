@@ -1,0 +1,14 @@
+# https://edabit.com/challenge/2JHYavYqynX8ZCmMG
+# Difficulty: Easy
+
+def ascii_sort(lst):
+    if sum([ord(i) for i in lst[0]]) <= sum([ord(i) for i in lst[1]]):
+        return lst[0]
+    else:
+        return lst[1]
+
+'''
+ascii_sort(["majorly", "then"]) ➞ "then"
+
+ascii_sort(["victory", "careless"]) ➞ "victory"
+'''
