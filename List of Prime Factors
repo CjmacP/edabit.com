@@ -1,0 +1,30 @@
+# https://edabit.com/challenge/QCgDtyfajCT4PGhFK
+# Difficulty: Easy
+
+def prime_factorization(number):
+    
+    lst = []
+    
+    def rounds(number):
+        
+        new_num = number
+        
+        if number%2==0:
+            lst.append(2)
+            new_num = number/2
+            rounds(new_num)
+        elif number%3 ==0:
+            lst.append(3)
+            new_num = number/3
+            rounds(new_num)
+        elif number%5 ==0:
+            lst.append(5)
+            new_num = number/5
+            rounds(new_num)
+        elif new_num != 1:
+            lst.append(int(new_num))
+    
+    rounds(number)
+    
+    return lst
+    
